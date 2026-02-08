@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { PiggyBank } from "lucide-react";
 
-export default function HeroSection() {
+export default function HeroSection(props: { calculatorCallback: Function }) {
   return (
     <div className="w-full">
       {/* Hero Content */}
@@ -26,7 +26,9 @@ export default function HeroSection() {
             and maximize your tax-free investment potential with ease.
           </p>
 
-          <Button> See Your Contribution Room</Button>
+          <Button onClick={() => props.calculatorCallback()}>
+            See Your Contribution Room
+          </Button>
         </section>
 
         <section className="mx-auto my-auto">
