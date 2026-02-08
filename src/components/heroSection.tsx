@@ -16,7 +16,7 @@ export default function HeroSection() {
 
           <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white">
             Know Your{" "}
-            <span className="bg-gradient-to-r from-green-600 to-green-800 bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-green-600 to-green-800 bg-clip-text text-transparent">
               Contribution Room
             </span>
           </h1>
