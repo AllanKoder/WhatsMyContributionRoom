@@ -32,7 +32,7 @@ export default function HeroSection(props: { calculatorCallback: Function }) {
         </section>
 
         <section className="mx-auto my-auto">
-          <div className="text-[200px] font-bold bg-[url('/cats/friday-pay-day.gif')] bg-clip-text text-transparent bg-cover bg-center">
+          <div className="text-[200px] font-bold bg-[url('cats/friday-pay-day.gif')] bg-clip-text text-transparent bg-cover bg-center">
             $$$
           </div>
         </section>
