@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Contribution Room",
+  title: "What's My Contribution Room?",
   description: "Find Canadian Savings Contribution Rooms",
 };
 
