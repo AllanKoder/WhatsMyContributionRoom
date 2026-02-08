@@ -23,7 +23,7 @@ export default function useTfsaData(): {
   useEffect(() => {
     setIsLoading(true);
     async function fetchData() {
-      const data = await fetch("/data/tfsa.json");
+      const data = await fetch("data/tfsa.json");
       setTfsaTable(await data.json());
       setIsLoading(false);
     }

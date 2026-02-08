@@ -50,7 +50,7 @@ export default function FinanceExplanation() {
         {/* Step 1 */}
         <div className="flex flex-col items-center">
           <Image
-            src="/cats/thinking-cat.gif"
+            src="cats/thinking-cat.gif"
             alt="Thinking cat"
             width={120}
             height={120}
@@ -86,7 +86,7 @@ export default function FinanceExplanation() {
         {/* Step 2 */}
         <div className="flex flex-col items-center">
           <Image
-            src="/cats/cat-money.gif"
+            src="cats/cat-money.gif"
             alt="Cat with money"
             width={120}
             height={120}
@@ -122,7 +122,7 @@ export default function FinanceExplanation() {
         {/* Step 3 */}
         <div className="flex flex-col items-center">
           <Image
-            src="/cats/epic-fail-fall.gif"
+            src="cats/epic-fail-fall.gif"
             alt="Payday celebration cat"
             width={120}
             height={120}
