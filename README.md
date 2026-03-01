@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# What's My Contribution Room?
+
+A Canadian tax-advantaged savings calculator that helps you understand and estimate your contribution room for **TFSA**, **FHSA**, and **RRSP** accounts — all in one place.
+
+## Features
+
+- **TFSA** — Enter your birth year and instantly see your total accumulated contribution room, plus a year-by-year breakdown of annual limits since 2009.
+- **FHSA** — Enter the year you opened your First Home Savings Account and see your estimated contribution room ($8,000/year, $40,000 lifetime max). Includes a note if you enter a year before the FHSA launched in April 2023.
+- **RRSP** — Enter your prior year's earned income (T4 Box 14 / T1 line 10100) and see your estimated new contribution room (18% of income, capped at the CRA annual limit).
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+This project is deployed as a static site to **GitHub Pages** via `next export`.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js](https://nextjs.org) (App Router, static export)
+- [Tailwind CSS](https://tailwindcss.com)
+- [shadcn/ui](https://ui.shadcn.com) components
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Disclaimer
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+These calculators provide **estimates only**. Actual contribution room depends on your personal CRA account history, prior contributions, withdrawals, and pension adjustments. Always verify your exact available room through [CRA My Account](https://www.canada.ca/en/revenue-agency/services/e-services/digital-services-individuals/account-individuals.html) or your Notice of Assessment.

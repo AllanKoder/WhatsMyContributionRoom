@@ -33,7 +33,7 @@ export default function HeroSection(props: { calculatorCallback: Function }) {
 
         <section className="mx-auto my-auto">
           <img
-            src="/cats/friday-pay-day.gif"
+            src="cats/friday-pay-day.gif"
             alt="Payday celebration"
             className="w-48 h-48 object-contain"
           />
